@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  font-family:"Kumbh Sans", sans-serif;
+}
+
+body{
+    margin: 5px;
+    background: linear-gradient(  hsl(64, 98%, 45%) ,  hsl(0, 0%, 31%)) fixed;
+
+}
+#input{
+    display: flex;
+    flex-direction: column;
+}
+
+#peso{
+    width: 25%;
+    margin: 0.5rem;
+}
+#altura{
+    width: 25%;
+    margin: 0.5rem;
+}
+#btnCalc{
+    width: 10%;
+    margin: 0.5rem;
+}
+#resultado{
+    display: none;
+    
+    
+}
+#caixa{
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12rem;
+    width: 43%;
+    background-color: white;
+    border-radius: 25px;
+    padding-bottom: 3rem;
+}
