@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  font-family:"Kumbh Sans", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    margin: 5px;
     background: linear-gradient(  hsl(64, 98%, 45%) ,  hsl(0, 0%, 31%)) fixed;
 
 }
@@ -41,4 +41,41 @@ body{
     background-color: white;
     border-radius: 25px;
     padding-bottom: 3rem;
+    
 }
+
+@media only screen and (max-width: 1440px) {
+    #peso{
+        width: 100%;
+        border-radius: 5px;
+    
+    }
+    #altura{
+        width: 100%;
+        border-radius: 5px;
+    }
+    #btnCalc{
+        width: 100%;
+        border-radius: 5px;
+    }
+    #caixa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 10240px) {
+#caixa{
+    width: 80%;
+}
+h1{
+    font-size: 30px;
+}
+
+}
+@media only screen and (max-width: 767px) {
+    h1{
+        font-size: 25px;
+    }
+}
+
