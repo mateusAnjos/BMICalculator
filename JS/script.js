@@ -14,7 +14,13 @@ function calcular(){
     let mensagemIMC
 
     //Calculando o IMC e atribuindo o resultado à variável
-    if (IMC < 18.5){
+    if (document.getElementById('peso').value == "") {
+        mensagemIMC = `ERRO. Nenhum campo pode estar vazio`
+    } else if (document.getElementById('altura').value == ""){
+        mensagemIMC = `ERRO. Nenhum campo pode estar vazio`
+    } else if(IMC < 1){
+        mensagemIMC = `ERRO. A altura deve ser em metros, não em centímetros. Use uma vírgula ou ponto`
+    } else if (IMC < 18.5){
         mensagemIMC = `Seu IMC é de ${IMC} e está abaixo do peso`
     } else if (IMC <= 24.9){
         mensagemIMC = `Seu IMC é de ${IMC} e está no peso normal`
