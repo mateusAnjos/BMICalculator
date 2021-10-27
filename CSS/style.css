@@ -13,8 +13,15 @@ body{
 #input{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
 }
-
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 #peso{
     width: 25%;
     margin: 0.5rem;
@@ -29,10 +36,12 @@ body{
 }
 #resultado{
     display: none;
-    
+    flex-direction: column;
+    align-items: center;
     
 }
 #caixa{
+
     padding: 1rem;
     margin-left: auto;
     margin-right: auto;

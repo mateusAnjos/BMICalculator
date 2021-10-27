@@ -1,7 +1,7 @@
 function calcular(){
     //Mudando o display de none para block
     let mudarDisplay = document.getElementById('resultado')
-    mudarDisplay.style.display="block"
+    mudarDisplay.style.display="flex"
 
     //coletando os valores dos inputs
     let peso = document.getElementById('peso').value
